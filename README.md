@@ -9,7 +9,7 @@
 ## Simple usage
 
 ````
-composer require mohamadalsalty/jsonfile
+composer require alsalty/jsonfile
 ````
 
 ```php
