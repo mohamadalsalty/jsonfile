@@ -14,25 +14,27 @@ composer require alsalty/jsonfile
 
 ```php
 <?php
+
 require 'vendor/autoload.php';
 
 use Alsalty\Jsonfile\File;
-
+use Alsalty\Jsonfile\Convert;
 $data = ['name' => 'mohamad'];
-$data = json_encode($data);
 
 
-//initiate data is the full path name of the folder
-//test.json is the file name
+// convert array to json
+$data = Convert::convertToJson($data);
+
+
+//initiate
 $file = new File('data', 'test.json');
 
 //create the file
-//$data is the json variable
 $file->create($data);
 
 //read the file
 echo($file->read());
 
-//delete file
+//delete the file
 $file->delete();
 ```

@@ -20,5 +20,5 @@ $file->create($data);
 //read the file
 echo($file->read());
 
-//delete file
+//delete the file
 $file->delete();
