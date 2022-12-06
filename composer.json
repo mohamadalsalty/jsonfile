@@ -1,0 +1,19 @@
+{
+  "name": "mohamadalsalty/jsonfile",
+  "description": "Hi",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mohamadalsalty\\Jsonfile\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MOHAMAD AL SALTY",
+      "email": "mohamadhazems@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
