@@ -12,7 +12,7 @@
 composer require mohamadalsalty/jsonfile
 ````
 
-```
+```php
 <?php
 require 'vendor/autoload.php';
 
