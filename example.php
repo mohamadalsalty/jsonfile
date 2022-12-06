@@ -9,10 +9,10 @@ $data = json_encode($data);
 
 
 //initiate
-$readFile = new File('data', 'test.json');
+$file = new File('data', 'test.json');
 
 //create the file
-$readFile->create($data);
+$file->create($data);
 
 //read the file
-echo($readFile->read());
+echo($file->read());

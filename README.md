@@ -24,14 +24,14 @@ $data = json_encode($data);
 
 //initiate data is the full path name of the folder
 //test.json is the file name
-$readFile = new File('data', 'test.json');
+$file = new File('data', 'test.json');
 
 //create the file
 //$data is the json variable
-$readFile->create($data);
+$file->create($data);
 
 //read the file
-echo($readFile->read());
+echo($file->read());
 
 
 ```
