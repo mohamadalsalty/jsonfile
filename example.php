@@ -16,3 +16,6 @@ $file->create($data);
 
 //read the file
 echo($file->read());
+
+//delete file
+$file->delete();

@@ -66,4 +66,18 @@ class File
 
     }
 
+
+    /**
+     * @return bool
+     */
+    public function delete(): bool
+    {
+        if (!CheckExists::fileExists($this->filePath)) return false;
+        try {
+            unlink($this->filePath);
+            return true;
+        } catch (Exception $e) {
+            return false;
+        }
+    }
 }

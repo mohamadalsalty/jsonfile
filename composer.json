@@ -2,6 +2,10 @@
   "name": "alsalty/jsonfile",
   "description": "PHP library to deal with json files",
   "type": "library",
+  "keywords": [
+    "json",
+    "file"
+  ],
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -15,5 +19,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {}
+  "require": {
+    "php": ">=8"
+  }
 }
