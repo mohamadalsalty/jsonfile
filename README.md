@@ -7,6 +7,11 @@
 
 ## ☕ Feel free to contribute !!
 ## Simple usage
+
+````
+composer require mohamadalsalty/jsonfile
+````
+
 ```
 <?php
 require 'vendor/autoload.php';
