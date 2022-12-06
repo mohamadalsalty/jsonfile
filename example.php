@@ -3,9 +3,12 @@
 require 'vendor/autoload.php';
 
 use Alsalty\Jsonfile\File;
-
+use Alsalty\Jsonfile\Convert;
 $data = ['name' => 'mohamad'];
-$data = json_encode($data);
+
+
+// convert array to json
+$data = Convert::convertToJson($data);
 
 
 //initiate
