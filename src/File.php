@@ -1,8 +1,8 @@
 <?php
 
-namespace Mohamadalsalty\Jsonfile;
+namespace Alsalty\Jsonfile;
 
-use Mohamadalsalty\Jsonfile\CheckExists;
+use Alsalty\Jsonfile\CheckExists;
 
 /**
  * File to read and create files

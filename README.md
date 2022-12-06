@@ -16,7 +16,7 @@ composer require mohamadalsalty/jsonfile
 <?php
 require 'vendor/autoload.php';
 
-use Mohamadalsalty\Jsonfile\File;
+use Alsalty\Jsonfile\File;
 
 $data = ['name' => 'mohamad'];
 $data = json_encode($data);

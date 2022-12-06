@@ -1,11 +1,11 @@
 {
-  "name": "mohamadalsalty/jsonfile",
+  "name": "alsalty/jsonfile",
   "description": "PHP library to deal with json files",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Mohamadalsalty\\Jsonfile\\": "src/"
+      "Alsalty\\Jsonfile\\": "src/"
     }
   },
   "authors": [

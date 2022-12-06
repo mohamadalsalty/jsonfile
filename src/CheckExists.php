@@ -1,6 +1,6 @@
 <?php
 
-namespace Mohamadalsalty\Jsonfile;
+namespace Alsalty\Jsonfile;
 
 /**
  * Class for dealing with files and folders checking
