@@ -1,6 +1,6 @@
 {
   "name": "mohamadalsalty/jsonfile",
-  "description": "Hi",
+  "description": "PHP library to deal with json files",
   "type": "library",
   "license": "MIT",
   "autoload": {
