@@ -34,7 +34,4 @@ $readFile->create($data);
 echo($readFile->read());
 
 
-
-/>
-
 ```
